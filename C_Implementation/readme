@@ -1,0 +1,19 @@
+1. Files
+|-main.c
+|-weights.h
+
+2. Environment Requirements
+Before running this project, make sure the following environment is set up:
+Operating System: Windows
+Compiler: GCC / MinGW-w64 or Visual Studio C/C++ Build Tools
+Build Tool: CMake
+Editor (optional): VS Code
+
+3. Run the Project
+3.1 Method 1: Run the executable directly in the terminal: .\main.exe
+3.2 Method 2: Rebuild and Run
+mkdir build
+cd build
+cmake ..
+cmake --build .
+.\main.exe
