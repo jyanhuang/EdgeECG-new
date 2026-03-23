@@ -1,1 +1,42 @@
-the corresponding C implementation of the EdgeECG.
+# ECG_RECOGNITION_C
+1. Project Structure
+  ECG_RECOGNITION_C/
+  ├── CMakeLists.txt
+  ├── main.c
+  ├── test.c
+# Conv weight files
+  ├── conv1_bias.txt
+  ├── conv1_weight.txt
+  ├── conv2_bias.txt
+  ├── conv2_weight.txt
+  ├── conv3_bias.txt
+  ├── conv3_weight.txt
+  ├── conv4_bias.txt
+  ├── conv4_weight.txt
+  ├── conv5_bias.txt
+  ├── conv5_weight.txt
+# FC weight files
+  ├── fc1_bias.txt
+  ├── fc1_weight.txt
+  ├── fc2_bias.txt
+  ├── fc2_weight.txt
+# Test ECG data
+  ├── X_test_np.txt
+  ├── Y_test_np.txt
+  └── cmake-build-debug/
+
+2. Environment Requirements
+Before running this project, make sure the following environment is set up:
+Operating System: Windows
+Compiler: GCC / MinGW-w64 or Visual Studio C/C++ Build Tools
+Build Tool: CMake
+Editor (optional): VS Code
+
+3. Run the Project
+3.1 Method 1: Run the executable directly in the terminal: .\main.exe
+3.2 Method 2: Rebuild and Run
+mkdir build
+cd build
+cmake ..
+cmake --build .
+.\main.exe
