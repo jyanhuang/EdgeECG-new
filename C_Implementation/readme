@@ -7,6 +7,7 @@
 # Conv weight files
   ├── conv1_bias.txt
   ├── conv1_weight.txt
+ # PartialConv
   ├── conv2_bias.txt
   ├── conv2_weight.txt
   ├── conv3_bias.txt
