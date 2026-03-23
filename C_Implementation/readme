@@ -1,6 +1,9 @@
 1. Files
 |-main.c
 |-weights.h
+|-X_test_np.txt
+|-Y_test_np.txt
+|-Results.png
 
 2. Environment Requirements
 Before running this project, make sure the following environment is set up:
@@ -10,10 +13,8 @@ Build Tool: CMake
 Editor (optional): VS Code
 
 3. Run the Project
-3.1 Method 1: Run the executable directly in the terminal: .\main.exe
+3.1 Method 1: Run the executable directly in the terminal: 
+- .\main.exe
 3.2 Method 2: Rebuild and Run
-mkdir build
-cd build
-cmake ..
-cmake --build .
-.\main.exe
+- gcc main.c test.c -o main.exe
+- .\main.exe
