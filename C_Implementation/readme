@@ -11,9 +11,11 @@
   ├── conv2_weight.txt
   ├── conv3_bias.txt
   ├── conv3_weight.txt
-  ├── conv4_bias.txt     # DepthwiseConv
-  ├── conv4_weight.txt   # PointwiseConv
-  ├── conv5_bias.txt
+ # DepthwiseConv
+  ├── conv4_bias.txt     
+  ├── conv4_weight.txt  
+  # PointwiseConv
+  ├── conv5_bias.txt    
   ├── conv5_weight.txt
 # FC weight files
   ├── fc1_bias.txt
