@@ -5,7 +5,7 @@ This repository provides the implementation of the proposed EdgeECG for arrhythm
 
 ## Repository Structure
 
-- `EdgeECG/Python/`  
+- `EdgeECG/Python_Implementation/`  
   Training and evaluation code for the proposed model.
 
 - `EdgeECG/C_Implementation/`  
