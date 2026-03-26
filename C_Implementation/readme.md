@@ -1,21 +1,34 @@
+# C Implementation
 
-1. Files
-|-main.c
-|-weights.h
-|-X_test_np.zip  --- Note: please unzip the 'X_test_np.zip' to 'X_test_np.txt' first.
-|-Y_test_np.txt
-|-Results.png
+## 1. Files
 
-2. Environment Requirements
-Before running this project, make sure the following environment is set up:
--Operating System: Windows
--Compiler: GCC / MinGW-w64 or Visual Studio C/C++ Build Tools
--Build Tool: CMake
--Editor (optional): VS Code
+This folder contains the following files:
 
-3. Run the Project
-3.1 Method 1: Run the executable directly in the terminal: 
-- .\main.exe
-3.2 Method 2: Rebuild and Run
-- gcc main.c test.c -o main.exe
-- .\main.exe
+- `main.c`
+- `weights.h`
+- `X_test_np.zip`  
+  **Note:** Please unzip `X_test_np.zip` first to obtain `X_test_np.txt`.
+- `Y_test_np.txt`
+- `Results.png`
+
+## 2. Environment Requirements
+
+Before running this project, please make sure the following environment is prepared:
+
+- **Operating System:** Windows
+- **Compiler:** GCC / MinGW-w64 or Visual Studio C/C++ Build Tools
+- **Build Tool:** CMake
+- **Editor (optional):** VS Code
+
+## 3. Run the Project
+
+### Method 1: Run the executable directly
+
+```bash
+.\main.exe
+
+### Method 2: Rebuild and run
+Compile the source code:
+gcc main.c -o main.exe
+Then run:
+.\main.exe
