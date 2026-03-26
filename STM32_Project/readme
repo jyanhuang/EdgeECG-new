@@ -1,3 +1,1 @@
-For convenience, we additionally provide the complete keil project via the following Baidu Netdisk link.  
-Link: [Baidu Netdisk link]  
-Extraction code: [code]
+This is the code running on the STM32F103ZET6, the ECG classification result can be determined by the lights.
