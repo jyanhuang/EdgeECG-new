@@ -3,16 +3,7 @@
 
 This repository contains the implementation of EdgeECG for ECG classification on the MIT-BIH Arrhythmia Database.
 
-## Environment
-
-- Python 3.10
-- Install dependencies with:
-
-```bash
-pip install -r requirements.txt
-
-
-## Project Structure
+1. Project Structure
 
 ```text
 .
@@ -25,19 +16,29 @@ pip install -r requirements.txt
 ├── checkpoints/         # Saved model checkpoints
 └── logs/                # Training logs
 
-## Dataset
+
+2. Environment
+
+- Python 3.10
+- Install dependencies with:
+
+```bash
+pip install -r requirements.txt
+
+
+3. Dataset
 
 Download the MIT-BIH Arrhythmia Database and place it in:
 
 ecg_data/mit-bih/
 
 
-## Running the Code
+4. Running the Code
 
 Place the MIT-BIH dataset in ecg_data/mit-bih/, then run:
 
 python main.py
 
-## Output
+4. Output
 checkpoints/: Saved trained models
 logs/: Training and evaluation logs
