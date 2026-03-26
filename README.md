@@ -1,6 +1,6 @@
 # EdgeECG
 
-This repository provides the implementation of the proposed EdgeECG for arrhythmia classification, including Python code, C implementation, and STM32F103ZET6 deployment.
+This repository provides the implementation of the proposed EdgeECG for arrhythmia classification, including Python code, C implementation, and STM32 deployment.
 
 
 ## Repository Structure
