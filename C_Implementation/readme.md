@@ -5,11 +5,13 @@
 This folder contains the following files:
 
 - `main.c`
+- `main.ext`
 - `weights.h`
 - `X_test_np.zip`  
   **Note:** Please unzip `X_test_np.zip` first to obtain `X_test_np.txt`.
 - `Y_test_np.txt`
 - `Results.png`
+- `readme.md`
 
 ## 2. Environment Requirements
 
