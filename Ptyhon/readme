@@ -1,1 +1,13 @@
 
+1. Directory Structure:
+  |-main.py
+  |-dataloder.py
+  |-utils.py
+  |-model.py
+  |-DCP.py
+  |-ecg_data/mit-bih/..  [Please put the dataset in this folder.]
+  |-checkpoints/         [Trained model will be saved in this folder.]
+  |-logs/                [Training record will be save in this folder.]
+
+2. Training and test:
+ -- run main.py
