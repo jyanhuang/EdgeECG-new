@@ -26,3 +26,9 @@ Before running this project, please make sure the following environment is prepa
 
 ```bash
 .\main.exe
+
+```markdown
+### Method 1: Run the executable directly
+
+```bash
+.\main.exe
