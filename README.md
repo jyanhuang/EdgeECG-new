@@ -9,10 +9,10 @@ This repository provides the implementation of the proposed EdgeECG for arrhythm
   Training and evaluation code for the proposed model.
 
 - `EdgeECG/C_Implementation/`  
-  Self-contained C implementation of the neural network inference, including:
+  C-based implementation for neural network inference, including:
   - model definition  
-  - weight parameters  
+  - trained weights  
   - example inference entry  
 
 - `EdgeECG/STM32_Project/`  
-  Example project for deployment on STM32F103ZET6 microcontrollers.
+  Deployment example on STM32F103ZET6 microcontrollers.
