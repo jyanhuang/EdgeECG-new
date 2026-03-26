@@ -1,0 +1,4 @@
+## Environment
+
+- Python >= 3.10
+- PyTorch 2.7
