@@ -26,9 +26,3 @@ Before running this project, please make sure the following environment is prepa
 
 ```bash
 .\main.exe
-
-### Method 2: Rebuild and run
-Compile the source code:
-gcc main.c -o main.exe
-Then run:
-.\main.exe
