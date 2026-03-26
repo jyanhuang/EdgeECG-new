@@ -1,7 +1,7 @@
 1. Files
 |-main.c
 |-weights.h
-|-X_test_np.txt  --- Note: due to its large size, the file has been uploaded to a cloud drive and can be accessed via the link:[]
+|-X_test_np.zip  --- Note: please unzip the 'X_test_np.zip' to 'X_test_np.txt' first.
 |-Y_test_np.txt
 |-Results.png
 
