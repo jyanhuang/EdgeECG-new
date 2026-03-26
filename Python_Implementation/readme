@@ -1,1 +1,34 @@
 
+# EdgeECG
+
+This repository contains the implementation of EdgeECG for ECG classification on the MIT-BIH Arrhythmia Database.
+
+## Project Structure
+
+```text
+.
+├── main.py              # Training and evaluation entry point
+├── dataloder.py         # Data loading
+├── utils.py             # Utility functions
+├── model.py             # Model definition
+├── DCP.py               # DCP module
+├── ecg_data/mit-bih/    # Place the MIT-BIH dataset here
+├── checkpoints/         # Saved model checkpoints
+└── logs/                # Training logs
+
+## Dataset
+
+Download the MIT-BIH Arrhythmia Database and place it in:
+
+ecg_data/mit-bih/
+
+
+## Running the Code
+
+Place the MIT-BIH dataset in ecg_data/mit-bih/, then run:
+
+python main.py
+
+## Output
+checkpoints/: Saved trained models
+logs/: Training and evaluation logs
