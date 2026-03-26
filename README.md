@@ -15,4 +15,4 @@ This repository provides the implementation of the proposed EdgeECG for arrhythm
   - example inference entry  
 
 - `EdgeECG/STM32_Project/`  
-  Example project for deployment on STM32 microcontrollers.
+  Example project for deployment on STM32F103 microcontrollers.
