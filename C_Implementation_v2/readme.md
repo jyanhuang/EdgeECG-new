@@ -1,5 +1,5 @@
 
-# C Implementation v2
+# C Implementation v2 for PC validation.
 
 ## 1. Files
 
